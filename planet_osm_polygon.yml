@@ -1,0 +1,62 @@
+name: Style for planet polygon
+feature-styles:
+
+  - rules:
+
+      - where: leisure = 'park' or leisure = 'playground' or landuse = 'cemetery'
+        symbolizers:
+          polygon:
+            stroke:
+              color: '#c0ccab'
+            fill:
+              color: '#c0ccab'
+
+
+      - where: landuse = 'cemetery'
+        symbolizers:
+          polygon:
+            stroke:
+              opacity: 0
+            fill:
+              color: '#e1e5f0'
+
+
+      - where: landuse = 'industrial' or aeroway = 'aerodrome'
+        zoom-levels:
+          max: 14
+          min: 20
+        symbolizers:
+          polygon:
+            stroke:
+              opacity: 0
+            fill:
+              color: '#eef0e1'
+
+
+      - where: building = 'yes'
+        zoom-levels:
+          max: 14
+        symbolizers:
+          polygon:
+            stroke:
+              opacity: 0
+            fill:
+              color: '#eeeeee'
+
+
+
+      - where: natural = 'water'
+        symbolizers:
+          polygon:
+            stroke: 
+              opacity: 0
+            fill:
+              color: '#a5bfdd'
+
+      - where: waterway = 'riverbank' or natural = 'bay'
+        symbolizers:
+          polygon:
+            stroke:
+              opacity: 0
+            fill:
+              color: '#a5bfdd'

@@ -1,0 +1,9 @@
+name: Coastline data
+feature-styles:
+  - rules:
+      - symbolizers:
+          polygon:
+            stroke:
+              opacity: 0
+            fill:
+              color: '#ffffff'

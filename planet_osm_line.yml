@@ -1,0 +1,335 @@
+name: OSM Planet line Style
+feature-styles:
+
+
+# railroads
+
+  - rules:
+      - where: railway = 'rail'
+        zoom-levels:
+          max: 1
+          min: 20
+        symbolizers:
+          line:
+            stroke:
+              color: '#ff33ff'
+
+
+  - rules:
+
+      - where: highway = 'motorway'
+        zoom-levels:
+          max: 8
+          min: 10
+        symbolizers:
+          line:
+            stroke:
+              opacity: .4
+              color: '#8d888f'
+
+  - rules:
+
+      - where: highway = 'motorway'
+        zoom-levels:
+          max: 10
+          min: 12
+        symbolizers:
+          line:
+            stroke:
+              color: '#8d888f'
+              opacity: .4
+
+  - rules:
+
+      - where: highway = 'motorway'
+        zoom-levels:
+          max: 12
+          min: 14
+        symbolizers:
+          line:
+            stroke:
+              width: 2
+              color: '#ffffff'
+
+  - rules:
+
+      - where: highway = 'motorway'
+        zoom-levels:
+          max: 12
+          min: 14
+        symbolizers:
+          line:
+            stroke:
+              color: '#8d888f'
+
+      - where: highway = 'motorway_link'
+        zoom-levels:
+          max: 14
+        symbolizers:
+          line:
+            stroke:
+              opacity: .4
+              color: '#8d888f'
+
+  - rules:
+
+      - where: highway = 'trunk'
+        zoom-levels:
+          max: 8
+          min: 12
+        symbolizers:
+          line:
+            stroke:   
+              width: .5
+              opacity: .4
+              color: '#8d888f'
+
+      - where: highway = 'trunk'
+        zoom-levels:
+          max: 12
+          min: 14
+        symbolizers:
+          line:
+            stroke:   
+              width: 1
+              opacity: .5
+              color: '#8d888f'
+
+      - where: highway = 'secondary'
+        zoom-levels:
+          max: 8
+          min: 12
+        symbolizers:
+          line:
+            stroke:
+              width: .5
+              opacity: .2
+              color: '#8d888f'
+
+      - where: highway = 'motorway'
+        zoom-levels:
+          max: 10
+          min: 14
+        symbolizers:
+          text:
+            halo:
+              radius: 1
+              color: '#ffffff'
+            vendor:
+              followLine: 'true'
+            font:
+              weight: bold
+              family: Droid Sans
+            label:
+              property: name
+
+      - where: highway = 'secondary' or highway = 'primary'
+        zoom-levels:
+          max: 10
+          min: 14
+        symbolizers:
+          text:
+            halo:
+              radius: 1
+              color: '#ffffff'
+            vendor:
+              followLine: 'true'
+            font:
+              family: Droid Sans
+            label:
+              property: name
+
+      - where: highway = 'secondary'
+        zoom-levels:
+          max: 12
+          min: 14
+        symbolizers:
+          line:
+            stroke:
+              width: .5
+              opacity: .4
+              color: '#8d888f'
+
+      - where: highway = 'secondary' or highway = 'primary'
+        zoom-levels:
+          max: 10
+          min: 14
+        symbolizers:
+          line:
+            stroke:
+              width: .5
+              opacity: .4
+              color: '#8d888f'
+
+      - where: highway = 'secondary' or highway = 'primary'
+        zoom-levels:
+          max: 14
+          min: 16
+        symbolizers:
+          text:
+            halo:
+              radius: 2
+              color: '#ffffff'
+            vendor:
+              followLine: 'true'
+            font:
+              size: 14
+              family: Droid Sans
+            label:
+              property: name
+
+# major road for zoom levels 14 -> 16
+
+
+  - rules:
+      - where: highway = 'residential' or highway = 'secondary' or highway = 'primary' or highway = 'tertiary'
+        zoom-levels:
+          max: 14
+          min: 16
+        symbolizers:
+          line:
+            stroke:
+              line-cap: round
+              width: 3.5
+              color: '#8d888f'
+
+  - rules:
+      - where: highway = 'residential'
+        zoom-levels:
+          max: 14
+          min: 16
+        symbolizers:
+          line:
+            stroke:
+              line-cap: round
+              width: 3
+              color: '#ffffff'
+
+
+  - rules:
+      - where: highway = 'secondary' or highway = 'primary' or highway = 'tertiary'
+        zoom-levels:
+          max: 14
+          min: 16
+        symbolizers:
+          line:
+            stroke:
+              line-cap: round
+              width: 2
+              color: '#e8e8e8'
+
+
+
+# end of major road
+
+
+      - where: highway = 'residential'
+        zoom-levels:
+          max: 12
+          min: 14
+        symbolizers:
+          line:
+            stroke:
+              width: .5
+              opacity: .2
+              color: '#8d888f'
+
+
+### zoom level 16 - 18
+
+
+  - rules:
+      - where: highway = 'motorway'
+        zoom-levels:
+          max: 14
+          min: 16
+        symbolizers:
+          line:
+            stroke:
+              width: 4.5
+              color: '#8d888f'
+
+  - rules:
+      - where: highway = 'motorway'
+        zoom-levels:
+          max: 14
+          min: 16
+        symbolizers:
+          line:
+            stroke:
+              line-cap: round
+              width: 3
+              color: '#e8e8e8'
+
+
+
+  - rules:
+      - where: highway = 'motorway'
+        zoom-levels:
+          max: 16
+          min: 18
+        symbolizers:
+          line:
+            stroke:
+              line-cap: round
+              width: 4
+              color: '#ff33ff'
+              #color: '#8d888f'
+
+
+
+  - rules:
+      - where: highway = 'residential' or highway = 'secondary' or highway = 'primary' or highway = 'tertiary' or highway = 'motorway'
+        zoom-levels:
+          max: 16
+          min: 18
+        symbolizers:
+          text:
+            vendor:
+              followLine: 'true'
+            font:
+              weight: bold
+              size: 12
+              family: Droid Sans
+            label:
+              property: name
+
+
+  - rules:
+      - where: highway = 'residential' or highway = 'secondary' or highway = 'primary' or highway = 'tertiary' or highway = 'motorway'
+        zoom-levels:
+          max: 16
+          min: 18
+        symbolizers:
+          line:
+            stroke:
+              line-cap: round
+              width: 12
+              color: '#8d888f'
+# or 
+
+
+  - rules:
+      - where: highway = 'residential'
+        zoom-levels:
+          max: 16
+          min: 18
+        symbolizers:
+          line:
+            stroke:
+              line-cap: round
+              width: 10
+              color: '#ffffff'
+
+  - rules:
+      - where: highway = 'secondary' or highway = 'primary' or highway = 'tertiary' or highway = 'motorway'
+        zoom-levels:
+          max: 16
+          min: 18
+        symbolizers:
+          line:
+            stroke:
+              width: 10
+              line-cap: round
+              color: '#e8e8e8'
+

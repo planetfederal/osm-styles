@@ -1,0 +1,107 @@
+name: OSM Planet point style
+feature-styles:
+
+  - rules:
+
+      - where: railway = 'station'
+        zoom-levels:
+          max: 13
+        symbolizers:
+          graphic:
+            size: 10
+            symbols:
+              - mark:
+                  name: square
+                  stroke:
+                    opacity: 0
+                  fill:
+                    color: '#307bc2'
+
+      # - where: railway = 'station'
+      #   zoom-levels:
+      #     max: 13
+      #   symbolizers:
+      #     text:
+      #       halo:
+      #         radius: 2
+      #         color: '#ffffff'
+      #       font:
+      #         size: 10
+      #         family: Droid Sans
+      #       displacment:
+      #         point:
+      #           x: .5
+      #           y: .5
+      #       fill:
+      #         color: '#4371f0'
+      #       label:
+      #         property: name
+
+
+      - where: leisure = 'park'
+        zoom-levels:
+          max: 14
+        symbolizers:
+          text:
+            displacment:
+              point:
+                x: .5
+                y: .5
+            vendor:
+              autoWrap: '90'
+            font:
+              weight: bold
+              family: Droid Serif
+            fill:              
+              color: '#656b5a'
+            label:
+              property: name
+
+
+      - where: place = 'city'
+        symbolizers:
+          text:
+            halo:
+              radius: 1
+              color: '#eff4ff'
+            font:
+              weight: bold
+              size: 20
+              family: Droid Serif
+            fill:
+              color: '#4c494d'
+            label:
+              property: name
+
+
+      - where: place = 'town'
+        zoom-levels:
+          max: 10
+        symbolizers:
+          text:
+            halo:
+              radius: 1
+              color: '#eff4ff'
+            font:
+              size: 14
+              family: Droid Serif
+            fill:
+              color: '#4c494d'
+            label:
+              property: name
+
+
+      - where: place = 'neighborhood'
+        symbolizers:
+          text:
+            halo:
+              radius: 1
+              color: '#eff4ff'
+            font:
+              size: 12
+              family: Droid Serif
+            fill:
+              color: '#4c494d'
+            label:
+              property: name
+

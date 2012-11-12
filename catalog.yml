@@ -1,0 +1,65 @@
+#define the workspace to be used in the remote geoserver
+workspace: osm
+
+# define the data stores for the map
+datastores:
+  - name: ny
+    type: postgis
+
+# define the style configuration objects
+styles:
+  - name: planet_osm_line
+    type: yaml
+    path: osm/planet_osm_line.yml
+
+  - name: planet_osm_polygon
+    type: yaml
+    path: osm/planet_osm_polygon.yml
+
+  - name: planet_osm_point
+    type: yaml
+    path: osm/planet_osm_point.yml
+
+
+  - name: processed_p
+    type: yaml
+    path: osm/processed_p.yml
+
+
+# define the database tables
+tables:
+
+  - name: planet_osm_line
+    datastore: ny
+
+  - name: planet_osm_polygon
+    datastore: ny
+
+  - name: planet_osm_point
+    datastore: ny
+
+  - name: shoreline
+    datastore: ny
+
+
+# define the map objects, the important stuff
+maps:
+  - name: OpenStreetMap
+#    bgcolor: '#959eb2'
+    bgcolor: '#a5bfdd'
+    epsg: 4326
+    bbox: [-74.18437435979938,40.66737044124583,-73.93992855901755,40.773273978759676]
+    layers:
+
+      - table: shoreline
+        style: processed_p
+
+
+      - table: planet_osm_polygon
+        style: planet_osm_polygon
+
+      - table: planet_osm_line
+        style: planet_osm_line
+
+      - table: planet_osm_point
+        style: planet_osm_point
