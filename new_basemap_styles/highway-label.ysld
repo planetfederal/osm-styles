@@ -1,0 +1,523 @@
+name: Default Styler
+feature-styles:
+- name: name
+  rules:
+  - filter: ${highway = 'secondary'}
+    zoom: [7, max]
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#000000'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 1
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 10.0
+        font-style: normal
+        font-weight: normal
+        placement: line
+        offset: 0
+        x-followLine: true
+        x-group: true
+  - filter: ${highway = 'primary'}
+    zoom: [6, max]
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#000000'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 1
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 10.0
+        font-style: normal
+        font-weight: normal
+        placement: line
+        offset: 0
+        x-followLine: true
+        x-group: true
+  - filter: ${highway = 'motorway'}
+    zoom: [6, max]
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#09131A'
+        halo:
+          fill-color: '#C6D2EB'
+          radius: 1
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 10.0
+        font-style: normal
+        font-weight: normal
+        placement: line
+        offset: 0
+        x-followLine: true
+        x-group: true
+  - zoom: [12, max]
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#000000'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 1
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 10.0
+        font-style: normal
+        font-weight: normal
+        placement: line
+        offset: 0
+        x-followLine: true
+        x-group: true
+  - filter: ${highway = 'secondary'}
+    zoom: [12, 14]    
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#644405'
+        halo:
+          fill-color: '#FEFCE4'
+          radius: 1
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 10.0
+        font-style: normal
+        font-weight: normal
+        placement: line
+        offset: 0
+        x-followLine: true
+        x-group: true
+  - filter: ${highway = 'primary'}
+    zoom: [12, 14]    
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#644405'
+        halo:
+          fill-color: '#FEFCE4'
+          radius: 1
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 10.0
+        font-style: normal
+        font-weight: normal
+        placement: line
+        offset: 0
+        x-followLine: true
+        x-group: true
+  - filter: ${highway = 'motorway'}
+    zoom: [12, 14]    
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#09131A'
+        halo:
+          fill-color: '#C6D2EB'
+          radius: 1
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 11.0
+        font-style: normal
+        font-weight: normal
+        placement: line
+        offset: 0
+        x-followLine: true
+        x-group: true
+  - filter: ${highway = 'unclassified'}
+    zoom: [17, max]
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#444444'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 1
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 12.0
+        font-style: normal
+        font-weight: normal
+        placement: line
+        offset: 0
+        x-followLine: true
+        x-group: true
+  - filter: ${highway = 'road'}
+    zoom: [17, max]
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#444444'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 1
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 12.0
+        font-style: normal
+        font-weight: normal
+        placement: line
+        offset: 0
+        x-followLine: true
+        x-group: true
+  - filter: ${highway = 'residential'}
+    zoom: [17, max]
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#444444'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 1
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 12.0
+        font-style: normal
+        font-weight: normal
+        placement: line
+        offset: 0
+        x-followLine: true
+        x-group: true
+  - filter: ${highway = 'tertiary'}
+    zoom: [17, max]
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#444444'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 1
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 12.0
+        font-style: normal
+        font-weight: normal
+        placement: line
+        offset: 0
+        x-followLine: true
+        x-group: true
+  - filter: ${highway = 'secondary'}
+    zoom: [17, max]
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#644405'
+        halo:
+          fill-color: '#FEFCE4'
+          radius: 1
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 12.0
+        font-style: normal
+        font-weight: normal
+        placement: line
+        offset: 0
+        x-followLine: true
+        x-group: true
+  - filter: ${highway = 'primary'}
+    zoom: [17, max]
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#644405'
+        halo:
+          fill-color: '#FEFCE4'
+          radius: 1
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 12.0
+        font-style: normal
+        font-weight: normal
+        placement: line
+        offset: 0
+        x-followLine: true
+        x-group: true
+  - filter: ${highway = 'trunk'}
+    zoom: [17, max]
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#14250E'
+        halo:
+          fill-color: '#C4E9C3'
+          radius: 1
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 12.0
+        font-style: normal
+        font-weight: normal
+        placement: line
+        offset: 0
+        x-followLine: true
+        x-group: true
+  - filter: ${highway = 'motorway'}
+    zoom: [17, max]
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#09131A'
+        halo:
+          fill-color: '#C6D2EB'
+          radius: 1
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 14.0
+        font-style: normal
+        font-weight: normal
+        placement: line
+        offset: 0
+        x-followLine: true
+        x-group: true
+  - filter: ${highway = 'unclassified'}
+    zoom: [12, 14]
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#000000'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 1
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 10.0
+        font-style: normal
+        font-weight: normal
+        placement: line
+        offset: 0
+        x-followLine: true
+        x-group: true
+  - filter: ${highway = 'road'}
+    zoom: [12, 14]
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#000000'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 1
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 10.0
+        font-style: normal
+        font-weight: normal
+        placement: line
+        offset: 0
+        x-followLine: true
+        x-group: true
+  - filter: ${highway = 'residential'}
+    zoom: [12, 14]
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#000000'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 1
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 10.0
+        font-style: normal
+        font-weight: normal
+        placement: line
+        offset: 0
+        x-followLine: true
+        x-group: true
+  - filter: ${highway = 'tertiary'}
+    zoom: [12, 14]
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#000000'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 1
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 10.0
+        font-style: normal
+        font-weight: normal
+        placement: line
+        offset: 0
+        x-followLine: true
+        x-group: true
+  - filter: ${highway = 'trunk'}
+    zoom: [12, 14]
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#14250E'
+        halo:
+          fill-color: '#C4E9C3'
+          radius: 1
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 10.0
+        font-style: normal
+        font-weight: normal
+        placement: line
+        offset: 0
+        x-followLine: true
+        x-group: true
+  - filter: ${highway = 'unclassified'}
+    zoom: [14, 17]
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#444444'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 1
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 10.0
+        font-style: normal
+        font-weight: normal
+        placement: line
+        offset: 0
+        x-followLine: true
+        x-group: true
+  - filter: ${highway = 'road'}
+    zoom: [14, 17]
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#444444'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 1
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 10.0
+        font-style: normal
+        font-weight: normal
+        placement: line
+        offset: 0
+        x-followLine: true
+        x-group: true
+  - filter: ${highway = 'residential'}
+    zoom: [14, 17]
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#444444'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 1
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 10.0
+        font-style: normal
+        font-weight: normal
+        placement: line
+        offset: 0
+        x-followLine: true
+        x-group: true
+  - filter: ${highway = 'tertiary'}
+    zoom: [14, 17]
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#444444'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 1
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 10.0
+        font-style: normal
+        font-weight: normal
+        placement: line
+        offset: 0
+        x-followLine: true
+        x-group: true
+  - filter: ${highway = 'secondary'}
+    zoom: [14, 17]
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#644405'
+        halo:
+          fill-color: '#FEFCE4'
+          radius: 1
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 11.0
+        font-style: normal
+        font-weight: normal
+        placement: line
+        offset: 0
+        x-followLine: true
+        x-group: true
+  - filter: ${highway = 'primary'}
+    zoom: [14, 17]
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#644405'
+        halo:
+          fill-color: '#FEFCE4'
+          radius: 1
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 11.0
+        font-style: normal
+        font-weight: normal
+        placement: line
+        offset: 0
+        x-followLine: true
+        x-group: true
+  - filter: ${highway = 'trunk'}
+    zoom: [14, 17]
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#14250E'
+        halo:
+          fill-color: '#C4E9C3'
+          radius: 1
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 11.0
+        font-style: normal
+        font-weight: normal
+        placement: line
+        offset: 0
+        x-followLine: true
+        x-group: true
+  - filter: ${highway = 'motorway'}
+    zoom: [14, 17]
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#09131A'
+        halo:
+          fill-color: '#C6D2EB'
+          radius: 1
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 12.0
+        font-style: normal
+        font-weight: normal
+        placement: line
+        offset: 0
+        x-followLine: true
+        x-group: true
+- name: name
+  rules:
+  - filter: ${oneway = 'yes' AND (highway = 'trunk' OR (highway = 'primary' OR (highway IN ('motorway','secondary'))))}
+    zoom: [15, 17]
+    symbolizers:
+    - text:
+        label: →
+        fill-color: '#94ADB5'
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 12
+        font-style: normal
+        font-weight: normal
+        placement: line
+        offset: 0
+        x-followLine: true
+        x-forceLeftToRight: false
+  - filter: ${oneway = 'yes' AND (highway = 'trunk' OR (highway = 'primary' OR (highway IN ('motorway','secondary'))))}
+    zoom: [17, 18]
+    symbolizers:
+    - text:
+        label: →
+        fill-color: '#94ADB5'
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 13
+        font-style: normal
+        font-weight: normal
+        placement: line
+        offset: 0
+        x-followLine: true
+        x-forceLeftToRight: false
+  - filter: ${oneway = 'yes'}
+    zoom: [18, max]
+    symbolizers:
+    - text:
+        label: →
+        fill-color: '#94ADB5'
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 14
+        font-style: normal
+        font-weight: normal
+        placement: line
+        offset: 0
+        x-followLine: true
+        x-forceLeftToRight: false

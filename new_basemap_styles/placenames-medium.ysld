@@ -1,0 +1,529 @@
+name: Default Styler
+feature-styles:
+- name: name
+  rules:
+  - filter: ${place = 'large_town'}
+    scale: ['100000.0', '200000.0']
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#555555'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 2
+        fon-family: DejaVu Sans, Unifont Medium, Unifont Medium
+        font-size: 12.0
+        font-style: normal
+        font-weight: normal
+        placement: point
+        x-group: true
+  - filter: ${place = 'town'}
+    scale: ['100000.0', '200000.0']
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#555555'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 2
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 12.0
+        font-style: normal
+        font-weight: normal
+        placement: point
+        x-group: true
+  - filter: ${place = 'small_town'}
+    scale: ['100000.0', '200000.0']
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#555555'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 2
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 12.0
+        font-style: normal
+        font-weight: normal
+        placement: point
+        x-group: true
+  - filter: ${place = 'city'}
+    scale: ['100000.0', '200000.0']
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#555555'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 2
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 16.0
+        font-style: normal
+        font-weight: normal
+        placement: point
+        x-group: true
+  - filter: ${place = 'metropolis'}
+    scale: ['100000.0', '200000.0']
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#555555'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 2
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 16.0
+        font-style: normal
+        font-weight: normal
+        placement: point
+        x-group: true
+  - filter: ${place = 'large_town'}
+    scale: ['750000.0', '1500000.0']
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#555555'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 1
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 10.0
+        font-style: normal
+        font-weight: normal
+        placement: point
+        x-group: true
+  - filter: ${place = 'town'}
+    scale: ['750000.0', '1500000.0']
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#555555'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 1
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 10.0
+        font-style: normal
+        font-weight: normal
+        placement: point
+        x-group: true
+  - filter: ${place = 'city'}
+    scale: ['750000.0', '1500000.0']
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#555555'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 2
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 11.0
+        font-style: normal
+        font-weight: normal
+        placement: point
+        x-group: true
+  - filter: ${place = 'metropolis'}
+    scale: ['750000.0', '1500000.0']
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#555555'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 2
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 11.0
+        font-style: normal
+        font-weight: normal
+        placement: point
+        x-group: true
+  - filter: ${place = 'city'}
+    scale: ['3000000.0', '6500000.0']
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#555555'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 1
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 10.0
+        font-style: normal
+        font-weight: normal
+        placement: point
+        x-group: true
+  - filter: ${place = 'metropolis'}
+    scale: ['3000000.0', '6500000.0']
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#555555'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 1
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 10.0
+        font-style: normal
+        font-weight: normal
+        placement: point
+        x-group: true
+  - filter: ${place = 'large_town'}
+    scale: ['50000.0', '100000.0']
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#555555'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 2
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 13.0
+        font-style: normal
+        font-weight: normal
+        placement: point
+        x-group: true
+  - filter: ${place = 'town'}
+    scale: ['50000.0', '100000.0']
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#555555'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 2
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 13.0
+        font-style: normal
+        font-weight: normal
+        placement: point
+        x-group: true
+  - filter: ${place = 'small_town'}
+    scale: ['50000.0', '100000.0']
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#555555'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 2
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 13.0
+        font-style: normal
+        font-weight: normal
+        placement: point
+        x-group: true
+  - filter: ${place = 'city'}
+    scale: ['50000.0', '100000.0']
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#555555'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 2
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 18.0
+        font-style: normal
+        font-weight: normal
+        placement: point
+        x-group: true
+  - filter: ${place = 'metropolis'}
+    scale: ['50000.0', '100000.0']
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#555555'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 2
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 18.0
+        font-style: normal
+        font-weight: normal
+        placement: point
+        x-group: true
+  - filter: ${place = 'large_town'}
+    scale: ['25000.0', '50000.0']
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#555555'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 2
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 14.0
+        font-style: normal
+        font-weight: normal
+        placement: point
+        x-group: true
+  - filter: ${place = 'town'}
+    scale: ['25000.0', '50000.0']
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#555555'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 2
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 14.0
+        font-style: normal
+        font-weight: normal
+        placement: point
+        x-group: true
+  - filter: ${place = 'small_town'}
+    scale: ['25000.0', '50000.0']
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#555555'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 2
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 14.0
+        font-style: normal
+        font-weight: normal
+        placement: point
+        x-group: true
+  - filter: ${place = 'large_town'}
+    scale: ['400000.0', '750000.0']
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#555555'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 1
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 10.0
+        font-style: normal
+        font-weight: normal
+        placement: point
+        x-group: true
+  - filter: ${place = 'town'}
+    scale: ['400000.0', '750000.0']
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#555555'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 1
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 10.0
+        font-style: normal
+        font-weight: normal
+        placement: point
+        x-group: true
+  - filter: ${place = 'small_town'}
+    scale: ['400000.0', '750000.0']
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#555555'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 1
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 10.0
+        font-style: normal
+        font-weight: normal
+        placement: point
+        x-group: true
+  - filter: ${place = 'city'}
+    scale: ['400000.0', '750000.0']
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#555555'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 2
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 13.0
+        font-style: normal
+        font-weight: normal
+        placement: point
+        x-group: true
+  - filter: ${place = 'metropolis'}
+    scale: ['400000.0', '750000.0']
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#555555'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 2
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 13.0
+        font-style: normal
+        font-weight: normal
+        placement: point
+        x-group: true
+  - filter: ${place = 'large_town'}
+    scale: ['1500000.0', '3000000.0']
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#555555'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 1
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 10.0
+        font-style: normal
+        font-weight: normal
+        placement: point
+        x-group: true
+  - filter: ${place = 'city'}
+    scale: ['1500000.0', '3000000.0']
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#555555'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 1
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 10.0
+        font-style: normal
+        font-weight: normal
+        placement: point
+        x-group: true
+  - filter: ${place = 'metropolis'}
+    scale: ['1500000.0', '3000000.0']
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#555555'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 1
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 10.0
+        font-style: normal
+        font-weight: normal
+        placement: point
+        x-group: true
+  - filter: ${place = 'large_town'}
+    scale: ['12500.0', '25000.0']
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#555555'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 2
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 16.0
+        font-style: normal
+        font-weight: normal
+        placement: point
+        x-group: true
+  - filter: ${place = 'town'}
+    scale: ['12500.0', '25000.0']
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#555555'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 2
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 16.0
+        font-style: normal
+        font-weight: normal
+        placement: point
+        x-group: true
+  - filter: ${place = 'small_town'}
+    scale: ['12500.0', '25000.0']
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#555555'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 2
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 16.0
+        font-style: normal
+        font-weight: normal
+        placement: point
+        x-group: true
+  - filter: ${place = 'large_town'}
+    scale: ['200000.0', '400000.0']
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#555555'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 2
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 11.0
+        font-style: normal
+        font-weight: normal
+        placement: point
+        x-group: true
+  - filter: ${place = 'town'}
+    scale: ['200000.0', '400000.0']
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#555555'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 2
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 11.0
+        font-style: normal
+        font-weight: normal
+        placement: point
+        x-group: true
+  - filter: ${place = 'small_town'}
+    scale: ['200000.0', '400000.0']
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#555555'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 2
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 11.0
+        font-style: normal
+        font-weight: normal
+        placement: point
+        x-group: true
+  - filter: ${place = 'city'}
+    scale: ['200000.0', '400000.0']
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#555555'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 2
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 14.0
+        font-style: normal
+        font-weight: normal
+        placement: point
+        x-group: true
+  - filter: ${place = 'metropolis'}
+    scale: ['200000.0', '400000.0']
+    symbolizers:
+    - text:
+        label: ${name}
+        fill-color: '#555555'
+        halo:
+          fill-color: '#FFFFFF'
+          radius: 2
+        fon-family: DejaVu Sans, Unifont Medium
+        font-size: 14.0
+        font-style: normal
+        font-weight: normal
+        placement: point
+        x-group: true

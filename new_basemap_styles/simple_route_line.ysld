@@ -1,0 +1,3660 @@
+name: Default Styler
+feature-styles:
+- name: name
+  rules:
+  - filter: ${(highway = 'motorway' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 3.2
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'motorway' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 3.2
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'motorway' AND tunnel = 'no'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 3.2
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 3.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 3.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'trunk' AND tunnel = 'no'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 3.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 3.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 3.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'primary' AND tunnel = 'no'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 3.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 2.9
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 2.9
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'secondary' AND tunnel = 'no'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 2.9
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary_link' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 2.7
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary_link' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 2.7
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'secondary_link' AND tunnel = 'no'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 2.7
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary_link' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 3.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary_link' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 3.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'primary_link' AND tunnel = 'no'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 3.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk_link' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 3.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk_link' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 3.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'trunk_link' AND tunnel = 'no'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 3.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'motorway_link' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 3.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'motorway_link' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 3.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'motorway_link' AND tunnel = 'no'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 3.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${aeroway = 'taxiway' AND highway = 'living_street'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 2.6
+        stroke-opacity: 0.8
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'residential'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 2.6
+        stroke-opacity: 0.8
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'road'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 2.6
+        stroke-opacity: 0.8
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'tertiary'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 2.6
+        stroke-opacity: 0.8
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'tertiary_link'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 2.6
+        stroke-opacity: 0.8
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'unclassified'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 2.6
+        stroke-opacity: 0.8
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'service'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 2.6
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 2.6
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'living_street'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 3.0
+        stroke-opacity: 0.8
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'residential'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 3.0
+        stroke-opacity: 0.8
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'road'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 3.0
+        stroke-opacity: 0.8
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'tertiary'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 3.0
+        stroke-opacity: 0.8
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'tertiary_link'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 3.0
+        stroke-opacity: 0.8
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'unclassified'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 3.0
+        stroke-opacity: 0.8
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'service'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 3.0
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 3.0
+        stroke-linecap: square
+  - filter: ${highway = 'living_street'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.6
+        stroke-opacity: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'road'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.6
+        stroke-opacity: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'tertiary'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.6
+        stroke-opacity: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'tertiary_link'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.6
+        stroke-opacity: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'unclassified'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.6
+        stroke-opacity: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'residential'}
+    zoom: [11, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.6
+        stroke-opacity: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'motorway' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 10.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'motorway' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 10.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'motorway' AND tunnel = 'no'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 10.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 9.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 9.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'trunk' AND tunnel = 'no'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 9.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 9.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 9.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'primary' AND tunnel = 'no'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 9.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 8.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 8.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'secondary' AND tunnel = 'no'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 8.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary_link' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 7.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary_link' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 7.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'secondary_link' AND tunnel = 'no'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 7.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary_link' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 7.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary_link' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 7.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'primary_link' AND tunnel = 'no'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 7.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk_link' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 7.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk_link' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 7.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'trunk_link' AND tunnel = 'no'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 7.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'motorway_link' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 7.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'motorway_link' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 7.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'motorway_link' AND tunnel = 'no'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 7.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${aeroway = 'taxiway' AND highway = 'living_street'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 12.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'residential'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 12.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'road'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 12.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'tertiary'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 12.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'tertiary_link'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 12.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'unclassified'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 12.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'service'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 12.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 12.0
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'living_street'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 24.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'residential'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 24.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'road'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 24.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'tertiary'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 24.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'tertiary_link'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 24.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'unclassified'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 24.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'service'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 24.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 24.0
+        stroke-linecap: square
+  - filter: ${highway = 'living_street'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 8.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'road'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 8.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'tertiary'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 8.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'tertiary_link'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 8.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'unclassified'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 8.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'residential'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 8.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'service'}
+    zoom: [15, 17]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 3.6
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${(highway = 'motorway' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'motorway' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'motorway' AND tunnel = 'no'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 0.7
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 0.7
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'trunk' AND tunnel = 'no'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 0.7
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 0.6
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 0.6
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'primary' AND tunnel = 'no'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 0.6
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'secondary' AND tunnel = 'no'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'motorway' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [6, 7]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 0.4
+        stroke-opacity: 0.6
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'motorway' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [6, 7]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 0.4
+        stroke-opacity: 0.6
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'motorway' AND tunnel = 'no'}
+    zoom: [6, 7]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 0.4
+        stroke-opacity: 0.6
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [6, 7]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 0.3
+        stroke-opacity: 0.6
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [6, 7]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 0.3
+        stroke-opacity: 0.6
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'trunk' AND tunnel = 'no'}
+    zoom: [6, 7]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 0.3
+        stroke-opacity: 0.6
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [6, 7]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 0.2
+        stroke-opacity: 0.6
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [6, 7]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 0.2
+        stroke-opacity: 0.6
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'primary' AND tunnel = 'no'}
+    zoom: [6, 7]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 0.2
+        stroke-opacity: 0.6
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'motorway' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 4.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'motorway' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 4.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'motorway' AND tunnel = 'no'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 4.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 3.4
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 3.4
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'trunk' AND tunnel = 'no'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 3.4
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 3.4
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 3.4
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'primary' AND tunnel = 'no'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 3.4
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 3.2
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 3.2
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'secondary' AND tunnel = 'no'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 3.2
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary_link' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 3.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary_link' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 3.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'secondary_link' AND tunnel = 'no'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 3.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary_link' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 3.2
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary_link' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 3.2
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'primary_link' AND tunnel = 'no'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 3.2
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk_link' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 3.2
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk_link' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 3.2
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'trunk_link' AND tunnel = 'no'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 3.2
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'motorway_link' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 3.2
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'motorway_link' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 3.2
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'motorway_link' AND tunnel = 'no'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 3.2
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${aeroway = 'taxiway' AND highway = 'living_street'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 3.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'residential'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 3.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'road'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 3.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'tertiary'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 3.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'tertiary_link'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 3.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'unclassified'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 3.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'service'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 3.0
+        stroke-opacity: 0.4
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 3.0
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'living_street'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 5.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'residential'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 5.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'road'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 5.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'tertiary'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 5.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'tertiary_link'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 5.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'unclassified'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 5.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'service'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 5.0
+        stroke-opacity: 0.4
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 5.0
+        stroke-linecap: square
+  - filter: ${highway = 'living_street'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'road'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'tertiary'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'tertiary_link'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'unclassified'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'residential'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'service'}
+    zoom: [12, 13]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.2
+        stroke-opacity: 0.4
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${(highway = 'motorway' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 13.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'motorway' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 13.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'motorway' AND tunnel = 'no'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 13.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 12.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 12.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'trunk' AND tunnel = 'no'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 12.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 12.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 12.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'primary' AND tunnel = 'no'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 12.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 11.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 11.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'secondary' AND tunnel = 'no'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 11.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary_link' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 8.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary_link' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 8.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'secondary_link' AND tunnel = 'no'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 8.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary_link' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 8.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary_link' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 8.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'primary_link' AND tunnel = 'no'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 8.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk_link' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 8.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk_link' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 8.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'trunk_link' AND tunnel = 'no'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 8.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'motorway_link' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 8.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'motorway_link' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 8.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'motorway_link' AND tunnel = 'no'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 8.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${aeroway = 'taxiway' AND highway = 'living_street'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 12.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'residential'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 12.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'road'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 12.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'tertiary'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 12.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'tertiary_link'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 12.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'unclassified'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 12.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'service'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 12.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 12.0
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'living_street'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 30.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'residential'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 30.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'road'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 30.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'tertiary'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 30.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'tertiary_link'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 30.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'unclassified'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 30.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'service'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 30.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 30.0
+        stroke-linecap: square
+  - filter: ${highway = 'living_street'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 10.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'road'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 10.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'tertiary'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 10.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'tertiary_link'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 10.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'unclassified'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 10.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'residential'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 10.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'service'}
+    zoom: [17, 18]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 6.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${(highway = 'motorway' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 5.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'motorway' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 5.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'motorway' AND tunnel = 'no'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 5.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 5.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 5.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'trunk' AND tunnel = 'no'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 5.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 5.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 5.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'primary' AND tunnel = 'no'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 5.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 4.6
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 4.6
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'secondary' AND tunnel = 'no'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 4.6
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary_link' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 4.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary_link' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 4.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'secondary_link' AND tunnel = 'no'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 4.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary_link' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 4.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary_link' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 4.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'primary_link' AND tunnel = 'no'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 4.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk_link' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 4.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk_link' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 4.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'trunk_link' AND tunnel = 'no'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 4.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'motorway_link' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 4.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'motorway_link' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 4.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'motorway_link' AND tunnel = 'no'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 4.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${aeroway = 'taxiway' AND highway = 'living_street'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 4.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'residential'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 4.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'road'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 4.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'tertiary'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 4.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'tertiary_link'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 4.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'unclassified'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 4.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'service'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 4.0
+        stroke-opacity: 0.6
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 4.0
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'living_street'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 11.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'residential'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 11.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'road'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 11.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'tertiary'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 11.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'tertiary_link'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 11.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'unclassified'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 11.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'service'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 11.0
+        stroke-opacity: 0.6
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 11.0
+        stroke-linecap: square
+  - filter: ${highway = 'living_street'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 2.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'road'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 2.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'tertiary'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 2.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'tertiary_link'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 2.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'unclassified'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 2.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'residential'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 2.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'service'}
+    zoom: [13, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.4
+        stroke-opacity: 0.6
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${(highway = 'motorway' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 1
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'motorway' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 1
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'motorway' AND tunnel = 'no'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 1
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'trunk' AND tunnel = 'no'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'primary' AND tunnel = 'no'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.7
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.7
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'secondary' AND tunnel = 'no'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.7
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary_link' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 0.6
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary_link' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 0.6
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'secondary_link' AND tunnel = 'no'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 0.6
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary_link' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary_link' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'primary_link' AND tunnel = 'no'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk_link' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk_link' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'trunk_link' AND tunnel = 'no'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'motorway_link' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'motorway_link' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'motorway_link' AND tunnel = 'no'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${aeroway = 'taxiway' AND highway = 'living_street'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.2
+        stroke-opacity: 0.4
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${aeroway = 'taxiway' AND highway = 'residential'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.2
+        stroke-opacity: 0.4
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${aeroway = 'taxiway' AND highway = 'road'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.2
+        stroke-opacity: 0.4
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${aeroway = 'taxiway' AND highway = 'tertiary'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.2
+        stroke-opacity: 0.4
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${aeroway = 'taxiway' AND highway = 'tertiary_link'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.2
+        stroke-opacity: 0.4
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${aeroway = 'taxiway' AND highway = 'unclassified'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.2
+        stroke-opacity: 0.4
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${aeroway = 'runway' AND highway = 'living_street'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.2
+        stroke-opacity: 0.4
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${aeroway = 'runway' AND highway = 'residential'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.2
+        stroke-opacity: 0.4
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${aeroway = 'runway' AND highway = 'road'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.2
+        stroke-opacity: 0.4
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${aeroway = 'runway' AND highway = 'tertiary'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.2
+        stroke-opacity: 0.4
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${aeroway = 'runway' AND highway = 'tertiary_link'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.2
+        stroke-opacity: 0.4
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${aeroway = 'runway' AND highway = 'unclassified'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.2
+        stroke-opacity: 0.4
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'living_street'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.2
+        stroke-opacity: 0.4
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'road'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.2
+        stroke-opacity: 0.4
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'tertiary'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.2
+        stroke-opacity: 0.4
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'tertiary_link'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.2
+        stroke-opacity: 0.4
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'unclassified'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.2
+        stroke-opacity: 0.4
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'residential'}
+    zoom: [9, 10]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.2
+        stroke-opacity: 0.4
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'motorway' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [7, 8]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 0.6
+        stroke-opacity: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'motorway' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [7, 8]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 0.6
+        stroke-opacity: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'motorway' AND tunnel = 'no'}
+    zoom: [7, 8]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 0.6
+        stroke-opacity: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [7, 8]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 0.5
+        stroke-opacity: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [7, 8]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 0.5
+        stroke-opacity: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'trunk' AND tunnel = 'no'}
+    zoom: [7, 8]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 0.5
+        stroke-opacity: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [7, 8]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 0.4
+        stroke-opacity: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [7, 8]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 0.4
+        stroke-opacity: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'primary' AND tunnel = 'no'}
+    zoom: [7, 8]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 0.4
+        stroke-opacity: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [7, 8]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.3
+        stroke-opacity: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [7, 8]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.3
+        stroke-opacity: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'secondary' AND tunnel = 'no'}
+    zoom: [7, 8]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.3
+        stroke-opacity: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'motorway' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 23.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'motorway' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 23.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'motorway' AND tunnel = 'no'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 23.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 21.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 21.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'trunk' AND tunnel = 'no'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 21.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 21.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 21.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'primary' AND tunnel = 'no'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 21.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 19.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 19.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'secondary' AND tunnel = 'no'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 19.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary_link' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 16.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary_link' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 16.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'secondary_link' AND tunnel = 'no'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 16.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary_link' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 16.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary_link' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 16.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'primary_link' AND tunnel = 'no'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 16.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk_link' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 16.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk_link' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 16.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'trunk_link' AND tunnel = 'no'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 16.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'motorway_link' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 16.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'motorway_link' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 16.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'motorway_link' AND tunnel = 'no'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 16.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${aeroway = 'taxiway' AND highway = 'living_street'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 16.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'residential'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 16.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'road'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 16.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'tertiary'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 16.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'tertiary_link'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 16.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'unclassified'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 16.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'service'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 16.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 16.0
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'living_street'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 36.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'residential'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 36.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'road'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 36.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'tertiary'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 36.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'tertiary_link'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 36.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'unclassified'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 36.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'service'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 36.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 36.0
+        stroke-linecap: square
+  - filter: ${highway = 'living_street'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 13.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'road'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 13.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'tertiary'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 13.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'tertiary_link'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 13.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'unclassified'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 13.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'residential'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 13.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'service'}
+    zoom: [18, max]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 10.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${(highway = 'motorway' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 8.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'motorway' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 8.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'motorway' AND tunnel = 'no'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 8.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 7.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 7.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'trunk' AND tunnel = 'no'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 7.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 7.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 7.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'primary' AND tunnel = 'no'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 7.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 6.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 6.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'secondary' AND tunnel = 'no'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 6.0
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary_link' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 5.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary_link' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 5.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'secondary_link' AND tunnel = 'no'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 5.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary_link' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 5.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary_link' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 5.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'primary_link' AND tunnel = 'no'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 5.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk_link' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 5.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk_link' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 5.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'trunk_link' AND tunnel = 'no'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 5.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'motorway_link' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 5.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'motorway_link' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 5.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'motorway_link' AND tunnel = 'no'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 5.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${aeroway = 'taxiway' AND highway = 'living_street'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 8.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'residential'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 8.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'road'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 8.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'tertiary'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 8.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'tertiary_link'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 8.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'unclassified'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 8.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'service'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 8.0
+        stroke-opacity: 0.8
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 8.0
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'living_street'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 18.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'residential'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 18.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'road'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 18.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'tertiary'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 18.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'tertiary_link'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 18.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'unclassified'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 18.0
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'service'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 18.0
+        stroke-opacity: 0.8
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 18.0
+        stroke-linecap: square
+  - filter: ${highway = 'living_street'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 5.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'road'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 5.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'tertiary'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 5.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'tertiary_link'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 5.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'unclassified'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 5.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'residential'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 5.5
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'service'}
+    zoom: [14, 15]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 1
+        stroke-opacity: 0.8
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${(highway = 'motorway' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 2.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'motorway' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 2.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'motorway' AND tunnel = 'no'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 2.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 2.6
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 2.6
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'trunk' AND tunnel = 'no'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 2.6
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 2.6
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 2.6
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'primary' AND tunnel = 'no'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 2.6
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.9
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.9
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'secondary' AND tunnel = 'no'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.9
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary_link' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'secondary_link' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'secondary_link' AND tunnel = 'no'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 0.8
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary_link' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 1
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'primary_link' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 1
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'primary_link' AND tunnel = 'no'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#F6CA43'
+        stroke-width: 1
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk_link' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 1
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'trunk_link' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 1
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'trunk_link' AND tunnel = 'no'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#5FBC48'
+        stroke-width: 1
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'motorway_link' AND tunnel = 'no') AND aeroway = 'taxiway'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 1
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${(highway = 'motorway_link' AND tunnel = 'no') AND aeroway = 'runway'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 1
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'motorway_link' AND tunnel = 'no'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#4A83BF'
+        stroke-width: 1
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${aeroway = 'taxiway' AND highway = 'living_street'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 1
+        stroke-opacity: 0.6
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'residential'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 1
+        stroke-opacity: 0.6
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'road'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 1
+        stroke-opacity: 0.6
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'tertiary'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 1
+        stroke-opacity: 0.6
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'tertiary_link'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 1
+        stroke-opacity: 0.6
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'unclassified'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 1
+        stroke-opacity: 0.6
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway' AND highway = 'service'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 1
+        stroke-linecap: square
+  - filter: ${aeroway = 'taxiway'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 1
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'living_street'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 2.0
+        stroke-opacity: 0.6
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'residential'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 2.0
+        stroke-opacity: 0.6
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'road'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 2.0
+        stroke-opacity: 0.6
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'tertiary'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 2.0
+        stroke-opacity: 0.6
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'tertiary_link'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 2.0
+        stroke-opacity: 0.6
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'unclassified'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 2.0
+        stroke-opacity: 0.6
+        stroke-linejoin: round
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway' AND highway = 'service'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 2.0
+        stroke-linecap: square
+  - filter: ${aeroway = 'runway'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#C8C8C8'
+        stroke-width: 2.0
+        stroke-linecap: square
+  - filter: ${highway = 'living_street'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.4
+        stroke-opacity: 0.6
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'road'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.4
+        stroke-opacity: 0.6
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'tertiary'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.4
+        stroke-opacity: 0.6
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'tertiary_link'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.4
+        stroke-opacity: 0.6
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'unclassified'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.4
+        stroke-opacity: 0.6
+        stroke-linejoin: round
+        stroke-linecap: round
+  - filter: ${highway = 'residential'}
+    zoom: [10, 11]
+    symbolizers:
+    - line:
+        stroke-color: '#BBBBBB'
+        stroke-width: 0.4
+        stroke-opacity: 0.6
+        stroke-linejoin: round
+        stroke-linecap: round

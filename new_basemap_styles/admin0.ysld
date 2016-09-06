@@ -1,0 +1,12 @@
+name: Default Styler
+feature-styles:
+- name: name
+  rules:
+  - zoom: [0, 14]
+    symbolizers:
+    - line:
+        stroke-color: '#BCD64C'
+        stroke-width: 0.4
+        stroke-linejoin: round
+        stroke-linecap: round
+  

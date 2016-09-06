@@ -1,0 +1,18 @@
+name: Default Styler
+feature-styles:
+- name: name
+  rules:
+  - zoom: [min, 7]
+    symbolizers:
+    - line:
+        stroke-color: '#28728D'
+        stroke-width: 0.4
+    - polygon:
+        fill-color: '#28728D'
+        fill-opacity: 0.4
+  - zoom: [8, max]
+    symbolizers:
+    - polygon:
+        fill-color: '#28728D'
+        fill-opacity: 0.4
+    
