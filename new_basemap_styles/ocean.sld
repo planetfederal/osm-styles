@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?><sld:StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:sld="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:gml="http://www.opengis.net/gml" version="1.0.0"><sld:NamedLayer><sld:Name>ocean_YSLD</sld:Name><sld:UserStyle><sld:Name>ocean_YSLD</sld:Name><sld:FeatureTypeStyle><sld:Name>name</sld:Name><sld:Rule><sld:MinScaleDenominator>3088522.3443812784</sld:MinScaleDenominator><sld:LineSymbolizer><sld:Stroke><sld:CssParameter name="stroke">#28728D</sld:CssParameter><sld:CssParameter name="stroke-width">0.4</sld:CssParameter></sld:Stroke></sld:LineSymbolizer><sld:PolygonSymbolizer><sld:Fill><sld:CssParameter name="fill">#28728D</sld:CssParameter><sld:CssParameter name="fill-opacity">0.4</sld:CssParameter></sld:Fill></sld:PolygonSymbolizer></sld:Rule><sld:Rule><sld:MaxScaleDenominator>3088522.3443812784</sld:MaxScaleDenominator><sld:PolygonSymbolizer><sld:Fill><sld:CssParameter name="fill">#28728D</sld:CssParameter><sld:CssParameter name="fill-opacity">0.4</sld:CssParameter></sld:Fill></sld:PolygonSymbolizer></sld:Rule></sld:FeatureTypeStyle></sld:UserStyle></sld:NamedLayer></sld:StyledLayerDescriptor>
+<?xml version="1.0" encoding="UTF-8"?>
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" xmlns:se="http://www.opengis.net/se">
+  <NamedLayer>
+    <se:Name>ocean_YSLD</se:Name>
+    <UserStyle>
+      <se:Name>ocean_YSLD</se:Name>
+      <se:FeatureTypeStyle>
+        <se:Rule>
+          <se:Name>Single symbol</se:Name>
+          <se:PolygonSymbolizer>
+            <se:Fill>
+              <se:SvgParameter name="fill">#28728D</se:SvgParameter>
+            </se:Fill>
+            <se:Stroke>
+              <se:SvgParameter name="stroke">#28728D</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+            </se:Stroke>
+          </se:PolygonSymbolizer>
+        </se:Rule>
+      </se:FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+</StyledLayerDescriptor>
