@@ -70,7 +70,7 @@ feature-styles:
         x-followLine: true
         x-group: true
   - filter: ${highway = 'secondary'}
-    zoom: [12, 14]    
+    zoom: [12, 14]
     symbolizers:
     - text:
         label: ${name}
@@ -87,7 +87,7 @@ feature-styles:
         x-followLine: true
         x-group: true
   - filter: ${highway = 'primary'}
-    zoom: [12, 14]    
+    zoom: [12, 14]
     symbolizers:
     - text:
         label: ${name}
@@ -104,7 +104,7 @@ feature-styles:
         x-followLine: true
         x-group: true
   - filter: ${highway = 'motorway'}
-    zoom: [12, 14]    
+    zoom: [12, 14]
     symbolizers:
     - text:
         label: ${name}
